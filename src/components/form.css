@@ -1,0 +1,85 @@
+/* Form.css */
+/* Form.css */
+
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  /* Add margin to create space from top */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="textarea"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  /* Adjust padding for larger button */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  /* Increase font size for better visibility */
+  transition: background-color 0.3s ease;
+  /* Smooth transition effect */
+
+  /* Add shadow effect for depth */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Center align text */
+  text-align: center;
+
+  /* Hover effect */
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  /* Darker shade on hover */
+}
+
+/* Disable button pointer events when submitting */
+.submit-button:disabled {
+  background-color: #ccc;
+  /* Gray out when disabled */
+  cursor: not-allowed;
+  /* Show not-allowed cursor */
+}
