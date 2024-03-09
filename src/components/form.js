@@ -10,7 +10,7 @@ const Form = ({ id }) => {
 
     const sendDataToBackend = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/add/${id}`, {
+            const response = await fetch(`https://user-detail.onrender.com/add/${id}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
