@@ -44,7 +44,7 @@ export default function DataContext({ children }) {
     const delteRequest = async (id) => {
 
         try {
-            const response = await fetch(`http://localhost:5000/delete/${id}`, {
+            const response = await fetch(`https://user-detail.onrender.com/delete/${id}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',
