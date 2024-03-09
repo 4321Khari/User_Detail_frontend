@@ -20,7 +20,7 @@ const Dashboard = () => {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('http://localhost:5000/get'); // Replace this with your backend endpoint
+            const response = await fetch('https://user-detail.onrender.com/get'); // Replace this with your backend endpoint
             const data = await response.json();
             setFetchedData(data);
             // console.log("id is", fetchedData);
