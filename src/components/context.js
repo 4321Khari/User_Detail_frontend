@@ -71,7 +71,7 @@ export default function DataContext({ children }) {
 
     const sendSelectedDataToEmail = async () => {
         try {
-            const response = await fetch('http://localhost:5000/sendData', {
+            const response = await fetch('https://user-detail.onrender.com/sendData', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
